@@ -241,12 +241,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/realme/x2/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/realme/x2/proprietary/vendor/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode \
+    vendor/realme/x2/proprietary/vendor/etc/camera/aps_camera_algo_switch_config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aps_camera_algo_switch_config \
+    vendor/realme/x2/proprietary/vendor/etc/camera/aps_camera_config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aps_camera_config \
+    vendor/realme/x2/proprietary/vendor/etc/camera/aps_camera_zoom_config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aps_camera_zoom_config \
     vendor/realme/x2/proprietary/vendor/etc/camera/arc_golden.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arc_golden.bin \
-    vendor/realme/x2/proprietary/vendor/etc/camera/darksight/darksight_main.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/darksight/darksight_main.bin \
-    vendor/realme/x2/proprietary/vendor/etc/camera/darksight/darksight_ultrawide.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/darksight/darksight_ultrawide.bin \
     vendor/realme/x2/proprietary/vendor/etc/camera/distortionParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/distortionParams.bin \
     vendor/realme/x2/proprietary/vendor/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv.model \
-    vendor/realme/x2/proprietary/vendor/etc/camera/hi846:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hi846 \
     vendor/realme/x2/proprietary/vendor/etc/camera/imx319:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx319 \
     vendor/realme/x2/proprietary/vendor/etc/camera/imx362:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx362 \
     vendor/realme/x2/proprietary/vendor/etc/camera/imx471:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx471 \
@@ -254,17 +254,25 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/etc/camera/imx576:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx576 \
     vendor/realme/x2/proprietary/vendor/etc/camera/imx586:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx586 \
     vendor/realme/x2/proprietary/vendor/etc/camera/megvii/cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megvii/cache \
+    vendor/realme/x2/proprietary/vendor/etc/camera/megvii/merged_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megvii/merged_model \
     vendor/realme/x2/proprietary/vendor/etc/camera/megvii/merged_model_post:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megvii/merged_model_post \
     vendor/realme/x2/proprietary/vendor/etc/camera/megvii/siq_ocl_cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megvii/siq_ocl_cache \
     vendor/realme/x2/proprietary/vendor/etc/camera/megvii/superiq_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megvii/superiq_model \
     vendor/realme/x2/proprietary/vendor/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mtStereoParams.bin \
     vendor/realme/x2/proprietary/vendor/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mwStereoParams.bin \
-    vendor/realme/x2/proprietary/vendor/etc/camera/oppo_camera_algo_switch_config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oppo_camera_algo_switch_config \
-    vendor/realme/x2/proprietary/vendor/etc/camera/oppo_camera_config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oppo_camera_config \
-    vendor/realme/x2/proprietary/vendor/etc/camera/oppo_camera_zoom_config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oppo_camera_zoom_config \
     vendor/realme/x2/proprietary/vendor/etc/camera/s5k3m5sx:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m5sx \
-    vendor/realme/x2/proprietary/vendor/etc/camera/s5kgd1sp:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5kgd1sp \
-    vendor/realme/x2/proprietary/vendor/etc/camera/s5kgw1:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5kgw1 \
+    vendor/realme/x2/proprietary/vendor/etc/camera/tonemap/s_curve_lut:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/s_curve_lut \
+    vendor/realme/x2/proprietary/vendor/etc/camera/tonemap/tonemap_lut_0:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_0 \
+    vendor/realme/x2/proprietary/vendor/etc/camera/tonemap/tonemap_lut_1:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_1 \
+    vendor/realme/x2/proprietary/vendor/etc/camera/tonemap/tonemap_lut_10:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_10 \
+    vendor/realme/x2/proprietary/vendor/etc/camera/tonemap/tonemap_lut_2:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_2 \
+    vendor/realme/x2/proprietary/vendor/etc/camera/tonemap/tonemap_lut_3:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_3 \
+    vendor/realme/x2/proprietary/vendor/etc/camera/tonemap/tonemap_lut_4:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_4 \
+    vendor/realme/x2/proprietary/vendor/etc/camera/tonemap/tonemap_lut_5:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_5 \
+    vendor/realme/x2/proprietary/vendor/etc/camera/tonemap/tonemap_lut_6:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_6 \
+    vendor/realme/x2/proprietary/vendor/etc/camera/tonemap/tonemap_lut_7:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_7 \
+    vendor/realme/x2/proprietary/vendor/etc/camera/tonemap/tonemap_lut_8:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_8 \
+    vendor/realme/x2/proprietary/vendor/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/tonemap_lut_9 \
     vendor/realme/x2/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/realme/x2/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/realme/x2/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -543,6 +551,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
     vendor/realme/x2/proprietary/vendor/firmware/ois_bu63169.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_bu63169.coeff \
     vendor/realme/x2/proprietary/vendor/firmware/ois_bu63169.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_bu63169.prog \
+    vendor/realme/x2/proprietary/vendor/firmware/ois_bu63169_sec.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_bu63169_sec.coeff \
+    vendor/realme/x2/proprietary/vendor/firmware/ois_bu63169_sec.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_bu63169_sec.prog \
     vendor/realme/x2/proprietary/vendor/firmware/sem1215s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sem1215s.bin \
     vendor/realme/x2/proprietary/vendor/firmware/sem1215s_dvt4g.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sem1215s_dvt4g.bin \
     vendor/realme/x2/proprietary/vendor/firmware/sem1215s_dvt5g.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sem1215s_dvt5g.bin \
@@ -611,7 +621,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib/camera/com.qti.tuned.sunny_hi846.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.sunny_hi846.bin \
     vendor/realme/x2/proprietary/vendor/lib/camera/com.qti.tuned.sunny_s5kgw1.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.sunny_s5kgw1.bin \
     vendor/realme/x2/proprietary/vendor/lib/camera/components/com.oppo.node.drawafinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.oppo.node.drawafinfo.so \
-    vendor/realme/x2/proprietary/vendor/lib/camera/components/com.oppo.node.nightvision.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.oppo.node.nightvision.so \
     vendor/realme/x2/proprietary/vendor/lib/camera/components/com.oppo.node.oppoengmode.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.oppo.node.oppoengmode.so \
     vendor/realme/x2/proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.camx.chiiqutils.so \
     vendor/realme/x2/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
@@ -702,6 +711,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
     vendor/realme/x2/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
     vendor/realme/x2/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
+    vendor/realme/x2/proprietary/vendor/lib/libDxHdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDxHdcp.so \
     vendor/realme/x2/proprietary/vendor/lib/libFileMux_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFileMux_proprietary.so \
     vendor/realme/x2/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
     vendor/realme/x2/proprietary/vendor/lib/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPQTEEC_vendor.so \
@@ -728,10 +738,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/realme/x2/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
     vendor/realme/x2/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
+    vendor/realme/x2/proprietary/vendor/lib/libSEC.HybridHDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSEC.HybridHDR.so \
     vendor/realme/x2/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
     vendor/realme/x2/proprietary/vendor/lib/libSNPE_G.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE_G.so \
     vendor/realme/x2/proprietary/vendor/lib/libSonyIMX471RmscLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX471RmscLibrary.so \
-    vendor/realme/x2/proprietary/vendor/lib/libVDBlurlessAPI_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVDBlurlessAPI_v2.so \
     vendor/realme/x2/proprietary/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so \
     vendor/realme/x2/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/realme/x2/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
@@ -743,18 +753,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/realme/x2/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/realme/x2/proprietary/vendor/lib/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaoa.so \
-    vendor/realme/x2/proprietary/vendor/lib/libarcsoft_blink_detection_CoupleDis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_blink_detection_CoupleDis.so \
-    vendor/realme/x2/proprietary/vendor/lib/libarcsoft_detection_base_CoupleDis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_detection_base_CoupleDis.so \
-    vendor/realme/x2/proprietary/vendor/lib/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_distortion_correction.so \
     vendor/realme/x2/proprietary/vendor/lib/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_bokeh_api.so \
     vendor/realme/x2/proprietary/vendor/lib/libarcsoft_dualcam_refocus_left.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_left.so \
     vendor/realme/x2/proprietary/vendor/lib/libarcsoft_dualcam_refocus_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_preview.so \
     vendor/realme/x2/proprietary/vendor/lib/libarcsoft_dualcam_refocus_right.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_right.so \
-    vendor/realme/x2/proprietary/vendor/lib/libarcsoft_hdr_denoise_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_hdr_denoise_api.so \
-    vendor/realme/x2/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range.so \
-    vendor/realme/x2/proprietary/vendor/lib/libarcsoft_high_dynamic_range_couple.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range_couple.so \
-    vendor/realme/x2/proprietary/vendor/lib/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_low_light_hdr.so \
-    vendor/realme/x2/proprietary/vendor/lib/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_smart_denoise.so \
     vendor/realme/x2/proprietary/vendor/lib/libarm_proxy_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarm_proxy_skel.so \
     vendor/realme/x2/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/realme/x2/proprietary/vendor/lib/libaudioEngineerTest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioEngineerTest.so \
@@ -768,14 +770,16 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/realme/x2/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
     vendor/realme/x2/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
+    vendor/realme/x2/proprietary/vendor/lib/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera2ndk_vendor.so \
     vendor/realme/x2/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
-    vendor/realme/x2/proprietary/vendor/lib/libcamhidlsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamhidlsensor.so \
     vendor/realme/x2/proprietary/vendor/lib/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov7.so \
     vendor/realme/x2/proprietary/vendor/lib/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov8.so \
     vendor/realme/x2/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
     vendor/realme/x2/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
     vendor/realme/x2/proprietary/vendor/lib/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswprocessalgo.so \
+    vendor/realme/x2/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/realme/x2/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
+    vendor/realme/x2/proprietary/vendor/lib/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnn.so \
     vendor/realme/x2/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
     vendor/realme/x2/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
     vendor/realme/x2/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
@@ -783,6 +787,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
     vendor/realme/x2/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
     vendor/realme/x2/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
+    vendor/realme/x2/proprietary/vendor/lib/libcvface_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvface_api.so \
     vendor/realme/x2/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/realme/x2/proprietary/vendor/lib/libdpps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpps.so \
     vendor/realme/x2/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
@@ -797,6 +802,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib/libgf_hal_G3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_hal_G3.so \
     vendor/realme/x2/proprietary/vendor/lib/libgf_hal_G5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_hal_G5.so \
     vendor/realme/x2/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
+    vendor/realme/x2/proprietary/vendor/lib/libgui_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui_vendor.so \
     vendor/realme/x2/proprietary/vendor/lib/libhbtpclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpclient.so \
     vendor/realme/x2/proprietary/vendor/lib/libhbtpdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpdsp.so \
     vendor/realme/x2/proprietary/vendor/lib/libhbtpfrmwk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpfrmwk.so \
@@ -886,7 +892,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc.so \
     vendor/realme/x2/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so \
     vendor/realme/x2/proprietary/vendor/lib/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_qtiflacdec.so \
-    vendor/realme/x2/proprietary/vendor/lib/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstdc++.so \
     vendor/realme/x2/proprietary/vendor/lib/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswregistrationalgo.so \
     vendor/realme/x2/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/realme/x2/proprietary/vendor/lib/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphony-cpu.so \
@@ -894,9 +899,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysmon_cdsp_skel.so \
     vendor/realme/x2/proprietary/vendor/lib/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_vendor.so \
     vendor/realme/x2/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
-    vendor/realme/x2/proprietary/vendor/lib/libtriplecam_image_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtriplecam_image_optical_zoom.so \
-    vendor/realme/x2/proprietary/vendor/lib/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtriplecam_optical_zoom_control.so \
-    vendor/realme/x2/proprietary/vendor/lib/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtriplecam_video_optical_zoom.so \
     vendor/realme/x2/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/realme/x2/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
     vendor/realme/x2/proprietary/vendor/lib/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvppclient.so \
@@ -1041,11 +1043,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_hi846.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_hi846.bin \
     vendor/realme/x2/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin \
     vendor/realme/x2/proprietary/vendor/lib64/camera/components/com.oppo.node.drawafinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oppo.node.drawafinfo.so \
-    vendor/realme/x2/proprietary/vendor/lib64/camera/components/com.oppo.node.nightvision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oppo.node.nightvision.so \
     vendor/realme/x2/proprietary/vendor/lib64/camera/components/com.oppo.node.oppoengmode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oppo.node.oppoengmode.so \
     vendor/realme/x2/proprietary/vendor/lib64/camera/components/com.oppo.node.preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oppo.node.preview.so \
     vendor/realme/x2/proprietary/vendor/lib64/camera/components/com.oppo.node.rtb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oppo.node.rtb.so \
-    vendor/realme/x2/proprietary/vendor/lib64/camera/components/com.oppo.node.sat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oppo.node.sat.so \
     vendor/realme/x2/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
     vendor/realme/x2/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
     vendor/realme/x2/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
@@ -1157,6 +1157,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib64/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libApeSwDec.so \
     vendor/realme/x2/proprietary/vendor/lib64/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libC2D2.so \
     vendor/realme/x2/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
+    vendor/realme/x2/proprietary/vendor/lib64/libDxHdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDxHdcp.so \
     vendor/realme/x2/proprietary/vendor/lib64/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFlacSwDec.so \
     vendor/realme/x2/proprietary/vendor/lib64/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPQTEEC_vendor.so \
     vendor/realme/x2/proprietary/vendor/lib64/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPTEE_vendor.so \
@@ -1181,7 +1182,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVpp.so \
     vendor/realme/x2/proprietary/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
     vendor/realme/x2/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
-    vendor/realme/x2/proprietary/vendor/lib64/libOppoAlgoProcess.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOppoAlgoProcess.so \
     vendor/realme/x2/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
     vendor/realme/x2/proprietary/vendor/lib64/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_vendor.so \
     vendor/realme/x2/proprietary/vendor/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_adreno.so \
@@ -1241,6 +1241,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
     vendor/realme/x2/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
     vendor/realme/x2/proprietary/vendor/lib64/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacertclient.so \
+    vendor/realme/x2/proprietary/vendor/lib64/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera2ndk_vendor.so \
     vendor/realme/x2/proprietary/vendor/lib64/libcamera_core_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_core_hwi.so \
     vendor/realme/x2/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/realme/x2/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
@@ -1250,6 +1251,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
     vendor/realme/x2/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
     vendor/realme/x2/proprietary/vendor/lib64/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svacnn.so \
+    vendor/realme/x2/proprietary/vendor/lib64/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svarnn.so \
     vendor/realme/x2/proprietary/vendor/lib64/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2vop.so \
     vendor/realme/x2/proprietary/vendor/lib64/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsp_default_listener.so \
     vendor/realme/x2/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
@@ -1331,15 +1333,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/x2/proprietary/vendor/lib64/libnetmgr_nr_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_nr_fusion.so \
     vendor/realme/x2/proprietary/vendor/lib64/libnetmgr_rmnet_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_rmnet_ext.so \
     vendor/realme/x2/proprietary/vendor/lib64/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnlnetmgr.so \
-    vendor/realme/x2/proprietary/vendor/lib64/libocam_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libocam_common.so \
     vendor/realme/x2/proprietary/vendor/lib64/liboemaids_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemaids_vendor.so \
     vendor/realme/x2/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/realme/x2/proprietary/vendor/lib64/liboppo_aisd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_aisd.so \
-    vendor/realme/x2/proprietary/vendor/lib64/liboppo_frame_registration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_frame_registration.so \
     vendor/realme/x2/proprietary/vendor/lib64/liboppo_platform_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_platform_hwi.so \
-    vendor/realme/x2/proprietary/vendor/lib64/liboppodarksight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppodarksight.so \
-    vendor/realme/x2/proprietary/vendor/lib64/liboppoexif.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppoexif.so \
-    vendor/realme/x2/proprietary/vendor/lib64/liboppojpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppojpeg.so \
     vendor/realme/x2/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/realme/x2/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
     vendor/realme/x2/proprietary/vendor/lib64/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfconfig.so \
